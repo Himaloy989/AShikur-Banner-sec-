@@ -1,0 +1,114 @@
+/* Common css start */
+:root{
+    --primary-color:#FFCC00;
+    --secondary-color: #353535;
+    --black-color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+h1,h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+h3,h4,h5,h6{
+    font-weight: 600;
+}
+a,button{
+    text-decoration: none;
+}
+.container{
+    width: 1110px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-100{
+    width: 100%;
+}
+ul,li{
+    list-style-type: none;
+}
+/* Common css end
+/* nav css start */
+#nav{
+    padding-top: 13px;
+}
+#nav div.row{
+    justify-content: space-between;
+    align-items: center;
+}
+#nav ul li a{
+    display: inline-block;
+    padding: 14px 23px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--secondary-color);
+    transition: .7s;
+}
+#nav ul li:hover a{
+    border-bottom: 1px Solid var(--secondary-color);
+}
+/* nav css end */
+/* banner css start */
+#banner h1{
+    font-size: 64px;
+    margin: 15px 0 25px;
+    color: var(--secondary-color);
+}
+#banner .banner-conten p{
+    width: 354px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#banner .banner-content .an{
+    margin-top: 77px;
+    margin-bottom: 65px;
+}
+#banner .banner-content .an a{
+    padding: 16px 45px;
+    border: 1px solid var(--black-color);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--secondary-color);
+    border-radius: 20px;
+    margin-right: 40px;
+    width: 209px;
+    height: 69px;
+    transition: 0.8s;
+}
+#banner .row p{
+    margin-right: 27px;
+}
+#banner ul li{
+    padding-right: 10px;
+}
+#banner .banner-content a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+#banner .banner-content{
+    width: 55%;
+}
+#baanner .banner-img{
+    text-align: right;
+    width: 40%;
+}
+#baanner .banner-img img{
+    width: 100%;
+}
+/* banner css end */
+/* about css start */
+/* about css end */
